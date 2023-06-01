@@ -13,9 +13,9 @@
   </div>
 </div>  
 
- <iframe width="420" height="315"
-      src="https://www.youtube.com/watch?v=VK36s7r96ew&lc=UgwzZKprcq2rBGGvUyB4AaABAg">
- </iframe>
+<div align="center">
+  <img src="./data/screenshots/extension_demo.gif" alt="extension preview">
+</div>
 
 
   
