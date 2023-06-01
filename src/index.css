@@ -1,13 +1,111 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    margin: 0;
+    /* font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif; */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    /* font-family: 'NHaasGroteskDSPro-65Md' !important; */
+    font-family: 'Roboto', sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.nav-link {
+    color: black !important;
+}
+
+#carousel {
+    max-height: 700px;
+}
+
+.carousalImg {
+    object-fit: contain !important;
+}
+
+img {
+    background-size: cover;
+}
+
+.card-img-top {
+    width: 285px;
+    height: 270px;
+}
+
+.card {
+    width: 320px !important;
+}
+
+.navitem {
+    margin-left: 15px;
+    padding: 5px;
+}
+
+.navitem .active {
+    text-shadow: 1px 1px rgb(131, 209, 14);
+    border-bottom: 2px solid rgb(131, 209, 14);
+}
+
+.animate {
+    color: #3498db;
+    animation: blink 15s ease-in-out infinite alternate-reverse both;
+}
+
+@keyframes blink {
+    0% {
+        color: #3498db;
+        text-shadow : 2px 2px red;
+    }
+
+    25% {
+        color: #a97e42;
+        text-shadow : 2px 2px yellow;
+    }
+
+    50% {
+        color: #b05b9f;
+        text-shadow : 2px 2px red;
+    }
+
+    75% {
+        color: #25d28a;
+        text-shadow : 2px 2px blueviolet;
+    }
+
+    100% {
+        color: #9fd44e;
+        text-shadow : 2px 2px red;
+    }
+}
+
+.card:hover{
+    transition : 1.5s;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+.cartContainer{
+    margin-left : 26% !important;
+    margin-top : 10% !important;
+}
+
+.btn:hover{
+   box-shadow : 3px 3px red !important;
+}
+
+
+.container2{
+    display : flex ;
+    justify-content: center;
+    padding-top : 70px;
+    padding-bottom : 100px;
+    background: linear-gradient(#e66465, #9198e5); 
+    border-radius : 25rem;
+}
+
+.container2 input{
+    width : 100% !important;
+    color : red !important;
+}
+
+.container2 .form-label{
+    font-size : 1.3rem !important;
+    color : white !important;
 }
