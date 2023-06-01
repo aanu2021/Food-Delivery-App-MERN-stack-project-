@@ -8,13 +8,13 @@
         <li> proper authentication </li>
         <li> add to cart functionality</li>
         <li> keep track of all order history</li>
+        <li> filtering out required food items </li>    
     </ul>
   </div>
 </div>  
 
-<iframe width="420" height="315"
-src="https://www.youtube.com/embed/tgbNymZ7vqY?controls=0">
-</iframe>
+https://github.com/aanu2021/TODOLIST-APP/assets/91496248/40b63899-d114-455c-9943-a573ffd0fa3b
+
 
 
   
